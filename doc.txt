@@ -1,0 +1,11 @@
+fake-json-server-create
+*****************************
+****************************
+1. npm init -y
+2. npm i json-server
+3.  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
+  },
+
+4. npm run start
